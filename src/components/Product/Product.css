@@ -58,3 +58,6 @@
     outline: 0;
     padding: 12px;
 }
+.single-product button:hover{
+    background-color: #FF9900;
+}
