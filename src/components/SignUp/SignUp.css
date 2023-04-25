@@ -1,0 +1,127 @@
+.card {
+    margin: 50px auto;
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.form-title {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+}
+
+.form-control {
+    margin-bottom: 30px;
+}
+
+.form-control input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.show-password-container{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.show-password-container input{
+    width: 15px;
+    margin-top: -10px;
+}
+.text-error{
+    text-align: center;
+    color: rgb(250, 73, 73);
+    font-size: 16px;
+}
+
+.btn-submit {
+    width: 415px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.toggle-text {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.toggle-text a {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.optional-text {
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #95A0A7;
+    text-align: center;
+    margin: 25px 0;
+    position: relative;
+}
+
+.optional-text span::after {
+    content: '';
+    background: #95A0A7;
+    position: absolute;
+    margin-left: 12px;
+    top: 10px;
+    height: 1px;
+    width: 150px;
+}
+
+.optional-text span::before {
+    content: '';
+    background-color: #95A0A7;
+    position: absolute;
+    top: 50%;
+    margin-left: -39%;
+    width: 150px;
+    height: 1px;
+}
+
+.google-btn {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #2A414F;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.google-btn svg{
+    color: #FF9900;
+}

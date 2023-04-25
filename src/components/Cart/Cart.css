@@ -1,4 +1,5 @@
 .cart-container {
+    width: 100%;
     background: rgba(255, 153, 0, 0.3);
     padding: 30px;
     position: sticky;
@@ -32,4 +33,27 @@
     font-size: 21px;
     letter-spacing: 0.0015em;
     color: #0E161A;
+}
+
+.clear-cart-btn, .cart-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+    padding: 16px;
+    letter-spacing: 0.0015em;
+    font-size: 21px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}
+.cart-btn {
+    background: #FF9900;
+    border-radius: 4px;
 }

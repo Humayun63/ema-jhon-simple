@@ -19,3 +19,15 @@
 .header a:hover{
     color:#FF9900;
 }
+.current-user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.current-user p{
+    color: aliceblue;
+}
+.current-user button{
+    cursor: pointer;
+    padding: 10px 15px;
+}

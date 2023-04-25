@@ -1,0 +1,54 @@
+.single-card {
+    width: 75%;
+    height: 100px;
+    padding: 8px 23px 8px 8px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.single-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+}
+
+.cart-details{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.cart-details h3 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #1C2B35;
+}
+
+.cart-details p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #1C2B35;
+}
+.text-orange{
+    color: #FF9900;
+}
+.delete-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background: rgba(235, 87, 87, 0.3);
+    cursor: pointer;
+}
+.delete-icon{
+    color: #EB5757;
+    width: 27px;
+    height: 31px;
+}
